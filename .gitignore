@@ -1,0 +1,22 @@
+# Build artifacts
+mandelbrot
+*.o
+*.out
+
+# Generated fractal images (regenerable; only sample PNGs in outputs/ are committed)
+*.ppm
+mandelbrot_outputs/
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# IDE
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db
